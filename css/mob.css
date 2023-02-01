@@ -1,0 +1,12 @@
+/*0-428*/
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 428px;
+       }
+  .menu{
+    display: none;
+  }
+  .tel{
+    display: none;
+    }
+  }

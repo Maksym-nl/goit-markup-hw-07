@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+    .menu {
+      display: flex;
+      gap: 40px;
+      color: var(--text-color);
+    }
+    .tel{
+      display: block;
+    }
+    .hamburger{
+        display: none;
+    }
+  }
