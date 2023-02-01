@@ -159,10 +159,7 @@ body {
   outline: 1px solid red;
   display: flex;
 }
-.tel{
-  display: block;
-  text-align: center;
-}
+
 .navigation link {
   color: var(--text-color);
 }
@@ -297,6 +294,9 @@ body {
   justify-content: center;
   gap: 24px;
   margin-top: 8px;
+}
+.team-item{
+  width: calc((100% - 72px) / 4); 
 }
 .team-item-soc {
   width: 40px;
