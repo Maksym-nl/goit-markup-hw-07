@@ -1,0 +1,28 @@
+@media screen and (min-width: 1200px) {
+    .container {
+      width: 1158px;
+    }
+    .name-hero{
+        width: 494px;
+        margin-bottom: 48px;
+        font-size: 56px;
+        line-height: 1.07;
+      }
+      .adge-list{
+        display: flex;
+      } 
+      .adge-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+  }
+  .list {
+    flex-wrap: nowrap;
+    
+}
+.customers-list {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+}
+}

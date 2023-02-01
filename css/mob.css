@@ -1,12 +1,95 @@
-/*0-428*/
-@media screen and (min-width: 480px) {
+
+  /*----------------------------------------------------------------*/
+  @media screen and (min-width: 480px) {
     .container {
-        max-width: 428px;
-       }
-  .menu{
-    display: none;
-  }
-  .tel{
-    display: none;
+        width: 428px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+     
     }
+
+    @media screen and (max-width:767px) {
+      .menu{
+        display: none;
+      }
+      .contact-list-link{
+        display: none;
+      }
+      .name-hero{
+        width: 318px;
+        margin-bottom: 72px;
+        font-size: 36px;
+        line-height: 1.11;
+      }
+      .background{
+        padding-top: 112px;
+        padding-bottom: 112px;
+        
+      }
+      .adge-list{
+        display: block;
+        font-size: 36px;
+        text-align: center;
+      }
+      .adge-item {
+        /* width: calc((100% - 72px) / 4); */
+        /* height: 112px; */
+        /*margin-bottom: 8px;
+        /* margin-top: 72px; */
+        padding-bottom: 72px;
+          }
+          .list {
+            display: flex;
+            gap: 72px;
+            /* width: 264px; */
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+        .name-block-color {
+          background: #f4f4fd;
+          padding-top: 96px;
+          padding-bottom: 96px;
+        }
+        .customers {
+          padding-top: 96px;
+          padding-bottom: 96px;
+      }
+      .customers-list {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+    }
+    .customers-list {
+      display: block;
+       }
+       .container-footer {
+        flex-direction: column;
+    }
+    .contant {
+    width: 264px;
+    margin-right: 120px;
+    outline: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+    .wrap {
+      display: flex;
+      /* display: block; */
+      outline: 1px solid red;
+      flex-direction: column;
+      align-items: center;
   }
+   }
+
+
+    @media screen and (max-width:1200px){
+      .adg-link {
+        display: none;
+      }
+      .container-servis{
+        display: none;
+      }
+  
+    }

@@ -1,16 +1,37 @@
 @media screen and (min-width: 768px) {
     .container {
-      max-width: 768px;
-    }
-    .menu {
-      display: flex;
-      gap: 40px;
-      color: var(--text-color);
-    }
-    .tel{
-      display: block;
+      width: 768px;
     }
     .hamburger{
         display: none;
     }
+    .name-hero{
+      width: 494px;
+      margin-bottom: 40px;
+      font-size: 56px;
+      line-height: 1.07;
+    }
+    .adge{
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
+    .adge-item {
+      width: calc((100% - 24px) / 2);
+    }
+    .adge-list {
+      row-gap: 72px;
+      flex-wrap: wrap;
+  }
+  .list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 64px;
+}
+.customers-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  }
+
+}
