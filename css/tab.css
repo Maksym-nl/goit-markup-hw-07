@@ -38,5 +38,13 @@
   gap: 24px;
   flex-wrap: wrap;
   }
-
+  .customers-item {
+    width: calc((100%-144px) / 6);
+      }
+      .footer-form{
+display: flex;
+      }
+      .wrap{
+        margin-left: 24px;
+      }
 }
