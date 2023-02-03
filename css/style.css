@@ -130,7 +130,7 @@ body {
   line-height: 1.33;
   color: var(--text-color);
 }
-.menu {
+.menu-heder {
   display: flex;
   gap: 40px;
   color: var(--text-color);
@@ -186,6 +186,110 @@ body {
   border-color: #404bbf;
   left: 0px;
   padding-bottom: 24px;
+}
+.mob-menu {
+  position: fixed;
+  top: 0;
+  z-index:1;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-right: 40px;
+   
+}
+.mob-menu >.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu-close {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #E7E9FC;
+border: 1px solid rgba(0, 0, 0, 0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left:auto;
+
+}
+.menu-open{
+  width: 32px;
+  height: 22px;
+  padding: 0;
+
+  background-color: transparent;
+  border: none;
+  
+}
+.mob-menu-top{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.mob-menu-list {
+  font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+color: #2E2F42;
+text-decoration: none;
+
+}
+
+.mob-menu-item:not(:last-child) {
+margin-bottom: 40px;
+}
+
+.mobil-tel{
+  display: flex;
+  margin-bottom: 40px;
+}
+
+
+.mob-menu-email {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2px;
+  color: #434455;
+}
+.mob-menu-tel {
+  font-weight: 600;
+font-size: 30px;
+line-height: 1.07;
+color: #4D5AE5;
+}
+
+.mob-list-soc {
+  text-align: center;
+  display: flex;
+  /* gap: 16px; */
+  align-items: center;
+  
+  justify-content: space-between;
+}
+  
+  
+
+.mob-item-soc {
+  display: flex;
+  justify-content: space-evenly;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #404bbf;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.mob-link-soc {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
 }
 
 .name-hero {
@@ -371,6 +475,7 @@ body {
 .customers-item {
   /*width: calc((100%-120px) / 6);*/
   height: 88px;
+  width: 190px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-item:hover,
@@ -487,6 +592,7 @@ body {
 .footer-form {
   /*margin-left: 80px;*/
   display: flex;
+  color:#FFFFFF;
   /*gap: 16px;*/
 }
 

@@ -18,13 +18,9 @@
   }
   .list {
     flex-wrap: nowrap;
-    
-}
+  }
 .customers-list {
     display: flex;
     gap: 24px;
     flex-direction: row;
 }
-/*.customers-item {
-    /*width: calc((100%-120px) / 6);*/
-}*/

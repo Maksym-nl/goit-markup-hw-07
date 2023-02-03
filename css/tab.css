@@ -38,13 +38,27 @@
   gap: 24px;
   flex-wrap: wrap;
   }
-  .customers-item {
+  /*.customers-item {
     width: calc((100%-144px) / 6);
-      }
+      }*/
       .footer-form{
 display: flex;
       }
       .wrap{
         margin-left: 24px;
+      }
+      .container-footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        justify-content: center;
+        
+    }
+    .foot-form-submit-btn{
+      margin-top: 16px;
+      display: flex;
+    }
+      .mob-menu{
+        display: none;
       }
 }

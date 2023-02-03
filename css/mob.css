@@ -1,4 +1,11 @@
-
+@media screen and (min-width: 300px){
+  .menu-heder{
+    display: none;
+  }
+  .contact-list-link{
+    display: none;
+  }
+}
   /*----------------------------------------------------------------*/
   @media screen and (min-width: 480px) {
     .container {
@@ -35,14 +42,10 @@
        align-items: center;
        justify-content: center;
    }
-   }
+ -------------------------------------------------------------------------------------------------
     @media screen and (max-width:767px) {
-      .menu{
-        display: none;
-      }
-      .contact-list-link{
-        display: none;
-      }
+      
+
       .name-hero{
         width: 318px;
         margin-bottom: 72px;
@@ -60,11 +63,7 @@
         text-align: center;
       }
       .adge-item {
-        /* width: calc((100% - 72px) / 4); */
-        /* height: 112px; */
-        /*margin-bottom: 8px;
-        /* margin-top: 72px; */
-        padding-bottom: 72px;
+       padding-bottom: 72px;
           }
           .list {
             display: flex;
@@ -84,20 +83,7 @@
           padding-top: 96px;
           padding-bottom: 96px;
       }
-      
-      /*.customers-list {
-        display: flex;
-        gap: 16px;
-        flex-wrap: wrap;
-        align-items: center;
-    }*/
-    
-       /*.customers-item {
-        width: calc((100%-120px) / 6);
-       }*/
-       .container-footer {
-        flex-direction: column;
-    }
+
     .contant {
       width: 100%;
       outline: 1px solid red;
@@ -115,31 +101,26 @@
       outline: 1px solid red;
       flex-direction: column;
       align-items: center;
-      margin-top: 72px;
+      margin-bottom: 72px;
   }
   .footer-form {
     display: block;
-    /* margin-left: 80px; */
-    /* display: flex; */
-    /* gap: 16px; */
-    /* margin-bottom: 16px; */
-}
-.text-footer-form{
-text-align: center;
-margin-top: 72px;
+    
 }
 .input-user-name {
- 
-  width: 100%;
-
+ width: 100%;
 }
-.submit{
-  margin-top: 24px;
-}
-
-   }
- 
-    @media screen and (max-width:1200px){
+.menu-open-icon{
+  stroke: #2E2F42;
+        }
+        .menu-open{
+          width: 32px;
+          height: 22px;
+          padding: 0;
+          background-color: transparent;
+          border: none;
+        }
+     @media screen and (max-width:1200px){
       .adg-link {
         display: none;
       }
