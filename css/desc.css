@@ -2,25 +2,41 @@
     .container {
       width: 1158px;
     }
-    .name-hero{
-        width: 494px;
-        margin-bottom: 48px;
-        font-size: 56px;
-        line-height: 1.07;
-      }
-      .adge-list{
+    .adge-list {
         display: flex;
+        gap: 24px;
       } 
-      .adge-list {
+      .adge-item {
+        width: calc((100% - 72px) / 4);
+        height: 112px;
+        margin-bottom: 8px;
+    }
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .customers-list {
         display: flex;
+        gap: 24px;
         flex-direction: row;
         flex-wrap: nowrap;
-  }
-  .list {
-    flex-wrap: nowrap;
-  }
-.customers-list {
-    display: flex;
-    gap: 24px;
-    flex-direction: row;
+        justify-content: center;
+    }
+    .wrap {
+        margin-left: 120px;
+        margin-right: 80px;
+    }
+    .input-user-name {
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .adg-link {
+        display: none;
+    }
+    .container-servis {
+        display: none;
+     }
+   
 }

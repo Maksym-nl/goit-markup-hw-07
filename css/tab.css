@@ -1,64 +1,132 @@
-@media screen and (min-width: 768px) {
-    .container {
-      width: 768px;
+@media (min-width: 768px){
+    .container{
+        width: 768px;
     }
-    .tel {
-      display: flex;
-      text-align: center;
-      flex-direction: column;
-    }
-    .hamburger{
-        display: none;
-    }
-    .name-hero{
-      width: 494px;
-      margin-bottom: 40px;
-      font-size: 56px;
-      line-height: 1.07;
-    }
-    .adge{
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
-    .adge-item {
-      width: calc((100% - 24px) / 2);
-    }
-    .adge-list {
-      row-gap: 72px;
-      flex-wrap: wrap;
-  }
-  .list {
+.tel-mail{
+    display: block;
+    text-align: center;
+}
+.menu-open {
+    display: none;
+}
+.adge-list {
     display: flex;
-    gap: 24px;
+    row-gap: 72px;
+    
     flex-wrap: wrap;
-    row-gap: 64px;
+}
+.adge-item {
+    margin-bottom: 8px;
+    width: 356px;
+}
+.name-block-color {
+    padding-top: 96px;
+    padding-bottom: 128px;
+    outline: red solid 1px;
+}
+.team-tumb {
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 72px;
+    justify-content: center;
 }
 .customers-list {
-  display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
-  }
-  /*.customers-item {
-    width: calc((100%-144px) / 6);
-      }*/
-      .footer-form{
-display: flex;
-      }
-      .wrap{
-        margin-left: 24px;
-      }
-      .container-footer {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 72px 24px;
-        justify-content: center;
-        
-    }
-    .foot-form-submit-btn{
-      margin-top: 16px;
-      display: flex;
-    }
-      .mob-menu{
-        display: none;
-      }
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+.customers-item {
+   width: 190px;
+  }
+  .contant {
+    margin-right: 24px;
+}
+.input-user-name{
+    margin-right: 24px;
+}
+}
+/*----------------------------------------------------------------------------------*/
+@media (max-width: 767px){
+.contact-list-link {
+    display: none;
+}
+.menu {
+    display: none;
+}
+.name-hero {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    width: 318px;
+    }
+    .adge {
+        padding-top: 96px;
+        padding-bottom: 96px;
+        outline: 1px solid red;
+    }
+
+.adge-item {
+   margin-bottom: 8px;
+}
+.adge-list {
+    gap: 72px;
+    flex-direction: column;
+    text-align: center;
+}
+.main-name {
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    width: 264px;}
+    .team-tumb {
+        display: flex;
+        gap: 72px;
+        flex-direction: column;
+    }
+    .customers-list {
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .customers-item {
+      width: 190px;
+    }
+    .container-footer {
+       flex-direction: column;
+        align-items: center;
+    }
+    .contant {
+        text-align: center;
+    }
+    .wrap {
+        margin-top: 72px;
+        text-align: center;
+    }
+    .text-footer-form {
+        margin-top: 72px;
+        text-align: center;
+    }
+    .input-user-name {
+       width: 396px;
+       text-align: center;
+    }
+    .footer-form {
+        
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-subscribe {
+        margin-top: 16px;
+    }
+    .input-user-name {
+        text-align: left;
+    }
+        }
