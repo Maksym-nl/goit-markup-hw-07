@@ -48,13 +48,80 @@
                     <div class="tel-mail">
                     <a href="mailto:info@devstudio.com" class="contact-list-link">info@devstudio.com</a>
                     <a href="tel:+110001111111" class="contact-list-link">+11 (000) 111-11-11</a>
-                    <button class="menu-open">
+                    <button class="menu-open" data-menu-open>
                         <svg class="menu-open-icon" width="32" height="22">
                             <use href="./img/icon.svg#icon-charm_menu-hamburger"></use>
                         </svg> 
                     </button>
-                </div>
+                 </div>
             </div>
+            
+             <div class="mob-menu is-hidden" data-menu>
+                <div class="container"> 
+            <button class="mobmenu-close" data-menu-close>
+                <svg class="menu-close-icon" width="8" height="8">
+                    <use href="./img/icon.svg#icon-close-black"></use>
+                </svg> 
+            </button>
+            
+          <ul class="mob-menu-list">
+            <li class="mob-menu-item">
+                <a class="mob-menu-link link" href="">Studio</a>
+            </li>
+            <li class="mob-menu-item">
+                <a  class="mob-menu-link link" href="">Portfolio</a>
+            </li>
+            <li class="mob-menu-item">
+                <a  class="mob-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+               
+              
+          <div class="mob-menu-contact link">
+            <ul class="mob-menu-contact-item">
+                <li class="mob-menu-contact-link link">
+            <a href="tel:+110001111111" class="mobmenu-tel-link link">+11 (000) 111-11-11</a>
+        </li>
+        <li class="mob-menu-contact-link link>  
+        <a href="mailto:info@devstudio.com" class="mobmenu-email-link link">info@devstudio.com</a>
+    </li>
+        </ul>
+           
+           <ul class="mobmenu-soc-list">
+<li class="mobmenu-soc-item">
+    <a  class="mobmenu-soc-link" href="">
+        <svg class="team-link-soc-icon" width="24" height="24">
+            <use href="./img/icon.svg#icon-instagram-2"></use>
+        </svg>
+    </a>
+</li>
+<li class="mobmenu-soc-item">
+    <a  class="mobmenu-soc-link" href="">
+        <svg class="team-link-soc-icon" width="24" height="24">
+            <use href="./img/icon.svg#icon-facebook-1"></use>
+        </svg>
+    </a>
+</li>
+<li class="mobmenu-soc-item">
+    <a  class="mobmenu-soc-link" href="">
+        <svg class="team-link-soc-icon" width="24" height="24">
+            <use href="./img/icon.svg#icon-linkedin-1"></use>
+        </svg> 
+    </a>
+</li>
+<li class="mobmenu-soc-item">
+    <a  class="mobmenu-soc-link" href="">
+        <svg class="team-link-soc-icon" width="24" height="24">
+            <use href="./img/icon.svg#icon-twitter-1"></use>
+        </svg>
+    </a>
+</li>
+        </ul>  
+        </div>
+    </div>
+</div>
+</div>
+
             </header>
             <!--HERO-->
             <section class="background">
@@ -376,9 +443,8 @@
                     </li>
                 </ul>
             </div>
-            <form>
-              
-                    <p class="text-footer-form">Subscribe</p>
+            <form">
+            <p class="text-footer-form">Subscribe</p>
                 
             <div class="footer-form">
                 <input type="text" name="user-name" class="input-user-name" placeholder="E-mail" />
@@ -458,6 +524,7 @@
                 AOS.init();
             </script>
             <script src="./js/modal.js"></script>
+            <script src="./js/mob-menu.js"></script>
 </body>
 
 </html>

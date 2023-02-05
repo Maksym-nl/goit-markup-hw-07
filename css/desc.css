@@ -29,6 +29,13 @@
     .input-user-name {
         margin-right: 24px;
     }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .background{
+      background-image: var(--bg-gradient), url(../img/people-office-2x.jpg);
+    }
+  }
 }
 
 @media screen and (max-width: 1200px) {

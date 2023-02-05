@@ -2,6 +2,17 @@
     .container{
         width: 768px;
     }
+    @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .background{
+  background-image: var(--bg-gradient), url(../img/Dark-bg-tab-2x\ .jpg);
+}
+.team-item{
+    background-image: var(--bg-gradient), url(../img/prod-tab-2x.jpg);
+  }
+}
+
 .tel-mail{
     display: block;
     text-align: center;
@@ -46,6 +57,9 @@
 .input-user-name{
     margin-right: 24px;
 }
+.mob-menu{
+    display: none;
+}
 }
 /*----------------------------------------------------------------------------------*/
 @media (max-width: 767px){
@@ -54,6 +68,9 @@
 }
 .menu {
     display: none;
+}
+.background{
+    background-image: var(--bg-gradient), url(../img/Dark-bg.jpg);
 }
 .name-hero {
     font-weight: 700;
@@ -90,6 +107,13 @@
         gap: 72px;
         flex-direction: column;
     }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .team-item{
+      background-image: var(--bg-gradient), url(../img/product-2x.jpg);
+    }
+  }
     .customers-list {
         display: flex;
         gap: 24px;
@@ -129,4 +153,5 @@
     .input-user-name {
         text-align: left;
     }
+   
         }
