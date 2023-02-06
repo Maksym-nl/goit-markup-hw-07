@@ -2,23 +2,29 @@
     .container{
         width: 768px;
     }
-    @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-  .background{
-  background-image: var(--bg-gradient), url(../img/Dark-bg-tab-2x\ .jpg);
-}
-.team-item{
-    background-image: var(--bg-gradient), url(../img/prod-tab-2x.jpg);
-  }
-}
 
-.tel-mail{
-    display: block;
-    text-align: center;
-}
+    .tel-mail {
+        display: flex;
+        text-align: right;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .contact-list-link {
+    margin-bottom: 4px;
+    }
 .menu-open {
     display: none;
+}
+.background {
+    background-image:var(--bg-gradient), url('../img/Dark-bg-tab1x.jpg');
+  }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .background {
+    background-image:var(--bg-gradient), url('../img/Dark-bg-tab-2x.jpg');
+  }
+  
 }
 .adge-list {
     display: flex;
@@ -53,7 +59,17 @@
   }
   .contant {
     margin-right: 24px;
+    margin-bottom: 72px;
 }
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 93px;
+    margin-right: 149px;
+}
+/*.text-footer-form {
+    margin-top: 72px;
+}*/
 .input-user-name{
     margin-right: 24px;
 }
@@ -69,8 +85,15 @@
 .menu {
     display: none;
 }
-.background{
-    background-image: var(--bg-gradient), url(../img/Dark-bg.jpg);
+.background {
+    background-image:var(--bg-gradient), url('../img/Dark-bg-1x.jpg');
+  }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .background {
+    background-image:var(--bg-gradient), url('../img/Dark-bg-2x.jpg');
+  }
 }
 .name-hero {
     font-weight: 700;
@@ -107,14 +130,8 @@
         gap: 72px;
         flex-direction: column;
     }
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      .team-item{
-      background-image: var(--bg-gradient), url(../img/product-2x.jpg);
-    }
-  }
-    .customers-list {
+  
+  .customers-list {
         display: flex;
         gap: 24px;
         flex-wrap: wrap;

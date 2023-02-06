@@ -56,7 +56,7 @@
                  </div>
             </div>
             
-             <div class="mob-menu is-hidden" data-menu>
+             <div class="mob-menu is-open" data-menu >
                 <div class="container"> 
             <button class="mobmenu-close" data-menu-close>
                 <svg class="menu-close-icon" width="8" height="8">
@@ -75,8 +75,6 @@
                 <a  class="mob-menu-link link" href="">Contacts</a>
             </li>
           </ul>
-               
-              
           <div class="mob-menu-contact link">
             <ul class="mob-menu-contact-item">
                 <li class="mob-menu-contact-link link">
@@ -86,7 +84,7 @@
         <a href="mailto:info@devstudio.com" class="mobmenu-email-link link">info@devstudio.com</a>
     </li>
         </ul>
-           
+           </div>
            <ul class="mobmenu-soc-list">
 <li class="mobmenu-soc-item">
     <a  class="mobmenu-soc-link" href="">
@@ -198,7 +196,9 @@
                         <div class="team-tumb">
                         <li class="team-item">
                             
-                            <img src="./img/product-designer.jpg" alt="product-designer" height="300">
+                            <img 
+                            src="./img/product-designer.jpg" alt="product-designer" 
+                            srcset="./img/prdis1x.jpg 1x, ./img/prod2x.jpg 2x" width=“264” height=“260>
                             <div class="team-h3-p">
                                 <h3 class="main-name">Mark Guerrero</h3>
                                 <p class="main-text">Product Designer</p>
@@ -234,7 +234,8 @@
                             </div>
                         </li>
                         <li class="team-item">
-                            <img src="./img/frontend-developer.jpg" alt="frontend-developer" height="300">
+                            <img src="./img/frontend-developer.jpg" alt="frontend-developer" 
+                            srcset="./img/fr1x.jpg 1x, ./img/fr2x.jpg 2x" width=“264” height=“260 width=“264” height=“260”>
                             <div class="team-h3-p">
                                 <h3 class="main-name">Tom Ford</h3>
                                 <p class="main-text">Frontend Developer</p>
@@ -271,7 +272,8 @@
                             </div>
                         </li>
                         <li class="team-item">
-                            <img src="./img/marketing.jpg" alt="marketing" height="300">
+                            <img src="./img/marketing.jpg" alt="marketing" 
+                            srcset="./img/m1x.jpg 1x, ./img/m2x.jpg 2x" width=“264” height=“260>
                             <div class="team-h3-p">
                                 <h3 class="main-name">Camila Garcia</h3>
                                 <p class="main-text">Marketing</p>
@@ -308,7 +310,8 @@
                             </div>
                         </li>
                         <li class="team-item">
-                            <img src="./img/ui-designer.jpg" alt="ui-designer" height="300">
+                            <img src="./img/ui-designer.jpg" alt="ui-designer"
+                            srcset="./img/ui1x.jpg 1x, ./img/ui2x.jpg 2x" width=“264” height=“260>
                             <div class="team-h3-p">
                                 <h3 class="main-name">Daniel Wilson</h3>
                                 <p class="main-text">UI Designer</p>
@@ -448,13 +451,12 @@
                 
             <div class="footer-form">
                 <input type="text" name="user-name" class="input-user-name" placeholder="E-mail" />
-                <div>
-                    <button type="submit" class="btn-subscribe">Subscribe
+                <button type="submit" class="btn-subscribe">Subscribe
                                 <svg class="icon-send" width="24" height="20">
                                     <use href="./img/icon.svg#icon-icon-send"></use>
                                 </svg>
                              </button>
-                            </div>
+                            
             </div>
             </form>
 

@@ -2,6 +2,19 @@
     .container {
       width: 1158px;
     }
+    .contact-list-link {
+        margin-left: 40px;
+    }
+    .background {
+        background-image:var(--bg-gradient), url('../img/people-office-1x.jpg');
+      }
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .background {
+    background-image:var(--bg-gradient), url('../img/people-office-2x.jpg');
+  }
+}
     .adge-list {
         display: flex;
         gap: 24px;
@@ -26,16 +39,13 @@
         margin-left: 120px;
         margin-right: 80px;
     }
+    .container-footer {
+        display: flex;
+        flex-wrap: nowrap;
+    }
     .input-user-name {
         margin-right: 24px;
     }
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      .background{
-      background-image: var(--bg-gradient), url(../img/people-office-2x.jpg);
-    }
-  }
 }
 
 @media screen and (max-width: 1200px) {
