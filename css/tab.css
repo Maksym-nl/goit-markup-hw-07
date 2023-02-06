@@ -64,8 +64,7 @@
 .container-footer {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 93px;
-    margin-right: 149px;
+    
 }
 /*.text-footer-form {
     margin-top: 72px;
