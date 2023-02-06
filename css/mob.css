@@ -1,6 +1,6 @@
 @media (min-width: 480px){
   .container {
-    width: 480px;
+    max-width: 480px;
   }
       .name-hero {
         font-weight: 700;
@@ -10,14 +10,14 @@
         }
        }
       
-@media (max-width: 480px){
+/*@media (max-width: 480px){
 .container {
     width: 480px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-  }
+  }*
 
-}
+}*/
 
