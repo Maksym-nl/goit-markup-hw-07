@@ -59,13 +59,11 @@ line-height: 1.33;
     row-gap: 72px;
     justify-content: center;
 }
-.customers-list {
+/*.customers-list {
     display: flex;
     gap: 24px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    
+}*/
 .customers-item {
     width: calc((100%-72px) / 4);
 }
@@ -148,12 +146,7 @@ line-height: 1.33;
         flex-direction: column;
     }
   
-  .customers-list {
-        display: flex;
-        gap: 24px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  
    
     .container-footer {
        flex-direction: column;
@@ -184,6 +177,7 @@ line-height: 1.33;
     }
     .text-footer-form {
         margin-top: 72px;
+        text-align: center;
     }
         }
         @media (max-width: 1199px){
