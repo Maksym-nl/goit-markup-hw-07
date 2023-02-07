@@ -42,8 +42,6 @@ line-height: 1.33;
 }
 .adge-list {
     display: flex;
-    row-gap: 72px;
-    
     flex-wrap: wrap;
 }
 .adge-item {
@@ -53,7 +51,7 @@ line-height: 1.33;
 .name-block-color {
     padding-top: 96px;
     padding-bottom: 128px;
-    outline: red solid 1px;
+    /*outline: red solid 1px;*/
 }
 .team-tumb {
     flex-wrap: wrap;
@@ -69,11 +67,11 @@ line-height: 1.33;
     justify-content: center;
 }
 .customers-item {
-   width: 190px;
-  }
+    width: calc((100%-72px) / 4);
+}
   .contant {
     margin-right: 24px;
-    margin-bottom: 72px;
+    /*margin-bottom: 72px;*/
 }
 .container-footer {
     display: flex;
@@ -89,6 +87,14 @@ line-height: 1.33;
 .mob-menu{
     display: none;
 }
+}
+@media (min-width: 768px) and (max-width: 1199px){
+.footer {
+    padding-left: 108px;
+}
+.text-footer-form {
+    margin-top: 72px;
+    }
 }
 /*----------------------------------------------------------------------------------*/
 @media (max-width: 767px){
@@ -117,30 +123,28 @@ line-height: 1.33;
     .adge {
         padding-top: 96px;
         padding-bottom: 96px;
-        outline: 1px solid red;
+        /*outline: 1px solid red;*/
     }
 
 .adge-item {
    margin-bottom: 8px;
 }
 .adge-list {
-    gap: 72px;
+    
     flex-direction: column;
     text-align: center;
 }
-.main-name {
-    font-size: 36px;
-    line-height: 1.11;
-}
+
 
 .team-list {
     display: flex;
     gap: 24px;
     flex-direction: column;
     width: 264px;}
+
     .team-tumb {
         display: flex;
-        gap: 72px;
+        /*gap: 72px;*/
         flex-direction: column;
     }
   
@@ -150,9 +154,7 @@ line-height: 1.33;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .customers-item {
-      width: 190px;
-    }
+   
     .container-footer {
        flex-direction: column;
         align-items: center;
@@ -164,12 +166,9 @@ line-height: 1.33;
         margin-top: 72px;
         text-align: center;
     }
-    .text-footer-form {
-        margin-top: 72px;
-        text-align: center;
-    }
+   
     .input-user-name {
-       width: 396px;
+       /*width: 396px;*/
        text-align: center;
     }
     .footer-form {

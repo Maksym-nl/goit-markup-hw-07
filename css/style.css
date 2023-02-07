@@ -16,7 +16,7 @@ html {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   margin: 0 auto;
 }
 p,
@@ -147,8 +147,11 @@ body {
   text-decoration: none;
   color: #434455;
   /*margin-left: 40px;*/
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.33;
 }
 .contact-list-link:hover,
 .contact-list-link:focus {
@@ -162,7 +165,7 @@ body {
   color: var(--text-color);
   letter-spacing: 0.02em;
   margin-right: auto;
-  outline: 1px solid red;
+ /* outline: 1px solid red;*/
   display: flex;
 }
 
@@ -359,7 +362,7 @@ line-height: 1.2;
 .adge {
   padding-top: 120px;
   padding-bottom: 120px;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 .adge-list {
   display: flex;
@@ -469,6 +472,13 @@ line-height: 1.2;
   line-height: 1.2;
   margin-bottom: 8px;
 }
+.adge-title {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
 .main-text {
   color: #434455;
   font-size: 16px;
@@ -489,7 +499,7 @@ line-height: 1.2;
   background: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 
 .customers {
@@ -509,7 +519,7 @@ line-height: 1.2;
   gap: 24px;
 }
 .customers-item {
-  width: calc((100%-120px) / 6);
+  /*width: calc((100%-120px) / 6);*/
   height: 88px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -547,7 +557,7 @@ line-height: 1.2;
 .contant {
   width: 264px;
   
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 .container-footer {
   display: flex;
@@ -568,11 +578,11 @@ line-height: 1.2;
   margin-top: 16px;
 }
 .footer-text-container {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 .wrap {
   display: block;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 .footer-text-soc {
   font-weight: 500;
@@ -824,7 +834,7 @@ line-height: 1.2;
   pointer-events: none;
 }
 .modal-title {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
     text-align: center;
     margin-bottom: 14px;
     color: #2e2f42;

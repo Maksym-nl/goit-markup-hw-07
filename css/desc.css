@@ -17,6 +17,13 @@
     background-image:var(--bg-gradient), url('../img/people-office-2x.jpg');
   }
 }
+.adge-title {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    
+  }
     .adge-list {
         display: flex;
         gap: 24px;
@@ -37,6 +44,9 @@
         flex-wrap: nowrap;
         justify-content: center;
     }
+    .customers-item {
+        width: calc((100%-120px) / 6);
+    }
     .wrap {
         margin-left: 120px;
         margin-right: 80px;
@@ -48,6 +58,10 @@
     .input-user-name {
         margin-right: 24px;
     }
+  
+  
+  
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -60,11 +74,4 @@
     .container-servis {
         display: none;
      }
-     .main-name {
-        color: var(--text-color);
-        font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-        margin-bottom: 8px;
-    }
 }
