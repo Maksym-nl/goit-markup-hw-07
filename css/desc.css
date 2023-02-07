@@ -3,10 +3,12 @@
       width: 1158px;
     }
     .contact-list-link {
-        margin-left: 40px;
+        padding-right: 40px;
     }
     .background {
         background-image:var(--bg-gradient), url('../img/people-office-1x.jpg');
+        padding-top: 188px;
+        padding-bottom: 188px;
       }
     @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -49,11 +51,20 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .contact-list-link {
+        margin-left: 40px;
+    }
     .adg-link {
         display: none;
     }
     .container-servis {
         display: none;
      }
-   
+     .main-name {
+        color: var(--text-color);
+        font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+        margin-bottom: 8px;
+    }
 }

@@ -9,14 +9,28 @@
         flex-wrap: wrap;
         justify-content: flex-end;
     }
+    
+    .name-hero{
+        width: 494px;
+        font-weight: 700;
+        margin-bottom: 40px;
+font-size: 56px;
+line-height: 1.07;
+    }
     .contact-list-link {
     margin-bottom: 4px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.33;
+/*padding-right: 40px;*/
     }
 .menu-open {
     display: none;
 }
 .background {
     background-image:var(--bg-gradient), url('../img/Dark-bg-tab1x.jpg');
+    padding-top: 112px;
+    padding-right: 108px;
   }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -171,3 +185,8 @@
     }
    
         }
+        @media (max-width: 1199px){
+        .contact-list-link {
+        padding-right: 40px;
+        }
+    }

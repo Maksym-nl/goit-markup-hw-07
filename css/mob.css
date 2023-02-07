@@ -2,6 +2,9 @@
   .container {
     width: 480px;
   }
+  .navigation{
+  font-weight: 500;
+}
       .name-hero {
         font-weight: 700;
         font-size: 36px;
