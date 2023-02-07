@@ -16,6 +16,7 @@
         margin-bottom: 40px;
 font-size: 56px;
 line-height: 1.07;
+text-align: center;
     }
     .contact-list-link {
     margin-bottom: 4px;
@@ -30,7 +31,7 @@ line-height: 1.33;
 .background {
     background-image:var(--bg-gradient), url('../img/Dark-bg-tab1x.jpg');
     padding-top: 112px;
-    padding-right: 108px;
+    padding-bottom: 108px;
   }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -74,7 +75,7 @@ line-height: 1.33;
 .container-footer {
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
 }
 /*.text-footer-form {
     margin-top: 72px;
@@ -87,9 +88,7 @@ line-height: 1.33;
 }
 }
 @media (min-width: 768px) and (max-width: 1199px){
-.footer {
-    padding-left: 108px;
-}
+   
 .text-footer-form {
     margin-top: 72px;
     }
@@ -117,6 +116,7 @@ line-height: 1.33;
     font-size: 36px;
     line-height: 1.11;
     width: 318px;
+    text-align: center;
     }
     .adge {
         padding-top: 96px;
@@ -142,7 +142,7 @@ line-height: 1.33;
 
     .team-tumb {
         display: flex;
-        /*gap: 72px;*/
+        gap: 72px;
         flex-direction: column;
     }
   

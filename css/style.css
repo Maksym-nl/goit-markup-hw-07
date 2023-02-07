@@ -320,8 +320,8 @@ line-height: 1.2;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 192px;
-  padding-bottom: 192px;
+  padding-top: 112px;
+  padding-bottom: 112px;
 }
 
 .name-hero {
@@ -332,6 +332,7 @@ line-height: 1.2;
   width: 492px;
   margin: 0 auto;
   margin-bottom: 48px;
+  text-align: center;
 }
 .hero-btn {
   background: var(--accent-color);
@@ -383,7 +384,12 @@ line-height: 1.2;
   justify-content: center;
   margin-bottom: 8px;
 }
-
+.adge-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+}
 .team-container {
   padding-top: 120px;
   padding-bottom: 110px;
@@ -423,6 +429,7 @@ line-height: 1.2;
   background: #ffffff;
   border-radius: 0px 0px 4px 4px;
   border: 1px solid #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-h3-p:hover,
@@ -483,6 +490,7 @@ line-height: 1.2;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
+  
 }
 
 .img-team {
@@ -530,6 +538,7 @@ line-height: 1.2;
 .customers-list {
         display: flex;
         gap: 24px;
+        row-gap: 72px;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -558,7 +567,9 @@ line-height: 1.2;
   display: flex;
   text-decoration: none;
 }
-
+.footer-section{
+  display: contents;
+}
 .contant {
   width: 264px;
   
